@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[我的第一篇测试文章]]></title>
+    <url>%2F2018%2F11%2F19%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%2F</url>
+    <content type="text"><![CDATA[风景夫人费收费方式覅说覅收费方式反馈你剪短发几个房间更便捷的发布国家 $productSystem=&apos;sunlands-cronus&apos;; $messageType=&apos;EXTERNAL&apos;; $groupNum=1; $createTime=time()*1000; $tplNumber=&apos;114528496812032&apos;; $key=&quot;sunland&quot;; //MD5（productSystem + messageType + groupNum + createTime + Key）32位字符串 $signData=md5($productSystem .$messageType . $groupNum.$createTime.$key); $params=array ( &apos;head&apos; =&gt; array ( &apos;productSystem&apos; =&gt; $productSystem, &apos;messageType&apos; =&gt; $messageType, &apos;groupNum&apos; =&gt; $groupNum, &apos;operator&apos; =&gt; &apos;tongzhimin&apos;, &apos;createTime&apos; =&gt; $createTime, &apos;tplNumber&apos; =&gt; $tplNumber, &apos;signData&apos; =&gt; $signData, ), &apos;body&apos; =&gt; array ( 0 =&gt; array ( &apos;mobile&apos; =&gt; &apos;17600185692&apos;, &apos;param&apos; =&gt; array ( &apos;code&apos;=&gt;12345 ), &apos;sendMarking&apos; =&gt; &apos;75&apos;, &apos;category1&apos; =&gt; &apos;教研教学&apos;, &apos;category2&apos; =&gt; &apos;课程规划&apos;, &apos;category3&apos; =&gt; &apos;开课通知&apos;, ), ), ); var_dump( ConsultationApi::init()-&gt;sendSms(&quot;requestJson=&quot;.json_encode($params,true)));die;]]></content>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F11%2F16%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
